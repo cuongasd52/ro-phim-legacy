@@ -28,10 +28,11 @@ nbdist/
 build/
 *.iml
 
-# Environment & Secrets (Bảo mật tối thượng)
+# Environment & Secrets
 Client/ro-phim-legacy-client/.env
 Server/RoPhimLegacyServer/.env
 .env
 *.env
+*.log
 # Exception
 !.env.example
