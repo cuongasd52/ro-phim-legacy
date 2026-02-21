@@ -1,0 +1,39 @@
+.movie-card {
+    transition: transform 0.2s;
+
+}
+
+.movie-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    z-index: 2;
+}
+
+.play-icon-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    transition: opacity 0.2s;
+    opacity: 0;
+    /* Mặc định ẩn đi */
+    pointer-events: none;
+    /* Tránh cản trở việc click vào Link */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.movie-card:hover .play-icon-overlay {
+    opacity: 1;
+    /* Hiện lên khi hover vào card */
+}
+
+.movie-card img {
+    transition: filter 0.3s;
+}
+
+.movie-card:hover img {
+    filter: brightness(0.7);
+    /* Làm tối ảnh một chút để icon Play nổi bật hơn */
+}

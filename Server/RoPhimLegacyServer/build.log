@@ -1,0 +1,635 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.rophimlegacy:movies >-----------------------
+[INFO] Building ro-phim-legacy 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ movies ---
+[INFO] Deleting E:\Hoc\PTIT\Ky4+5\CongNghePhanMem\Final_Project\RoPhimLegacyJava\Server\RoPhimLegacyJavaBackend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ movies ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ movies ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 27 source files with javac [debug release 21] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[17,2] cannot find symbol
+  symbol: class Slf4j
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/exception/GlobalExceptionHandler.java:[17,36] incompatible types: java.lang.Class<com.rophim.legacy.exception.AuthException> cannot be converted to java.lang.Class<? extends java.lang.Throwable>
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/models/User.java:[28,8] com.rophim.legacy.models.User is not abstract and does not override abstract method getPassword() in org.springframework.security.core.userdetails.UserDetails
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[32,9] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[33,9] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[37,31] cannot find symbol
+  symbol:   method getRankingValue()
+  location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[37,62] cannot find symbol
+  symbol:   method getRankingValue()
+  location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[38,22] invalid method reference
+  cannot find symbol
+    symbol:   method getRankingName()
+    location: class com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[51,9] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[54,31] cannot find symbol
+  symbol:   method getRankingName()
+  location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[54,61] cannot find symbol
+  symbol:   method getRankingName()
+  location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[57,21] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[59,43] cannot find symbol
+  symbol:   method getRankingValue()
+  location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[59,74] cannot find symbol
+  symbol:   method getRankingValue()
+  location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[84,17] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[99,21] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[107,13] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[32,46] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[35,13] cannot find symbol
+  symbol:   method setUserId(java.lang.String)
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[36,53] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[37,13] cannot find symbol
+  symbol:   method setCreatedAt(java.time.LocalDateTime)
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[38,13] cannot find symbol
+  symbol:   method setUpdatedAt(java.time.LocalDateTime)
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[43,9] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[46,21] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[50,9] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[51,21] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[51,62] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[53,52] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[54,13] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[59,13] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[60,25] cannot find symbol
+  symbol:   method getUserId()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[60,43] cannot find symbol
+  symbol:   method getFirstName()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[60,64] cannot find symbol
+  symbol:   method getLastName()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[60,84] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[64,37] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[65,42] cannot find symbol
+  symbol:   method getFirstName()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[66,41] cannot find symbol
+  symbol:   method getLastName()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[67,35] cannot find symbol
+  symbol:   method getUserId()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[68,41] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[70,60] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[71,68] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[73,17] cannot find symbol
+  symbol:   method setToken(java.lang.String)
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[74,17] cannot find symbol
+  symbol:   method setRefreshToken(java.lang.String)
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[77,13] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[81,13] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[96,33] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[97,38] cannot find symbol
+  symbol:   method getFirstName()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[98,37] cannot find symbol
+  symbol:   method getLastName()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[99,31] cannot find symbol
+  symbol:   method getUserId()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[100,37] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[102,59] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[103,67] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[105,13] cannot find symbol
+  symbol:   method setToken(java.lang.String)
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[106,13] cannot find symbol
+  symbol:   method setRefreshToken(java.lang.String)
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[112,9] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/exception/GlobalExceptionHandler.java:[19,85] cannot find symbol
+  symbol:   method getMessage()
+  location: variable e of type com.rophim.legacy.exception.AuthException
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[28,49] cannot find symbol
+  symbol:   method builder()
+  location: class com.rophim.legacy.dtos.UserResponse
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[29,39] cannot find symbol
+  symbol:   method getUserId()
+  location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[30,42] cannot find symbol
+  symbol:   method getFirstName()
+  location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[31,41] cannot find symbol
+  symbol:   method getLastName()
+  location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[32,38] cannot find symbol
+  symbol:   method getEmail()
+  location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[33,37] cannot find symbol
+  symbol:   method getRole()
+  location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[34,48] cannot find symbol
+  symbol:   method getFavouriteGenres()
+  location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[43,51] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type @jakarta.validation.Valid com.rophim.legacy.dtos.UserLogin
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[43,76] cannot find symbol
+  symbol:   method getPassword()
+  location: variable loginRequest of type @jakarta.validation.Valid com.rophim.legacy.dtos.UserLogin
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[47,49] cannot find symbol
+  symbol:   method builder()
+  location: class com.rophim.legacy.dtos.UserResponse
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[48,29] cannot find symbol
+  symbol:   method getUserId()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[49,32] cannot find symbol
+  symbol:   method getFirstName()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[50,31] cannot find symbol
+  symbol:   method getLastName()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[51,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[52,27] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[53,28] cannot find symbol
+  symbol:   method getToken()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[54,35] cannot find symbol
+  symbol:   method getRefreshToken()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[55,38] cannot find symbol
+  symbol:   method getFavouriteGenres()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[75,37] cannot find symbol
+  symbol:   method getToken()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[76,44] cannot find symbol
+  symbol:   method getRefreshToken()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/MovieController.java:[63,45] cannot find symbol
+  symbol:   method getRanking()
+  location: variable updatedMovie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/MovieController.java:[64,45] cannot find symbol
+  symbol:   method getAdminReview()
+  location: variable updatedMovie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[36,18] cannot find symbol
+  symbol:   method getAdminReview()
+  location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[36,53] cannot find symbol
+  symbol:   method getAdminReview()
+  location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[37,13] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.MovieService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[40,64] cannot find symbol
+  symbol:   method getAdminReview()
+  location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[43,26] cannot find symbol
+  symbol:   method setRanking(com.rophim.legacy.models.Ranking)
+  location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[46,17] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.MovieService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[57,34] cannot find symbol
+  symbol:   method getRole()
+  location: variable admin of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[58,13] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.MovieService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[63,9] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.MovieService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[63,80] cannot find symbol
+  symbol:   method getTitle()
+  location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[68,22] cannot find symbol
+  symbol:   method setRanking(com.rophim.legacy.models.Ranking)
+  location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[71,13] cannot find symbol
+  symbol:   variable log
+  location: class com.rophim.legacy.service.MovieService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[74,14] cannot find symbol
+  symbol:   method setAdminReview(java.lang.String)
+  location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[82,17] cannot find symbol
+  symbol:   method getFavouriteGenres()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[82,54] cannot find symbol
+  symbol:   method getFavouriteGenres()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[86,39] cannot find symbol
+  symbol:   method getFavouriteGenres()
+  location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[94,33] cannot find symbol
+  symbol:   method getRanking()
+  location: variable m1 of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[94,60] cannot find symbol
+  symbol:   method getRanking()
+  location: variable m1 of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[95,33] cannot find symbol
+  symbol:   method getRanking()
+  location: variable m1 of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[97,33] cannot find symbol
+  symbol:   method getRanking()
+  location: variable m2 of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[97,60] cannot find symbol
+  symbol:   method getRanking()
+  location: variable m2 of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[98,33] cannot find symbol
+  symbol:   method getRanking()
+  location: variable m2 of type com.rophim.legacy.models.Movie
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.081 s
+[INFO] Finished at: 2026-02-21T15:12:25+07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project movies: Compilation failure: Compilation failure: 
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[17,2] cannot find symbol
+[ERROR]   symbol: class Slf4j
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/exception/GlobalExceptionHandler.java:[17,36] incompatible types: java.lang.Class<com.rophim.legacy.exception.AuthException> cannot be converted to java.lang.Class<? extends java.lang.Throwable>
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/models/User.java:[28,8] com.rophim.legacy.models.User is not abstract and does not override abstract method getPassword() in org.springframework.security.core.userdetails.UserDetails
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[32,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[33,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[37,31] cannot find symbol
+[ERROR]   symbol:   method getRankingValue()
+[ERROR]   location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[37,62] cannot find symbol
+[ERROR]   symbol:   method getRankingValue()
+[ERROR]   location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[38,22] invalid method reference
+[ERROR]   cannot find symbol
+[ERROR]     symbol:   method getRankingName()
+[ERROR]     location: class com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[51,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[54,31] cannot find symbol
+[ERROR]   symbol:   method getRankingName()
+[ERROR]   location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[54,61] cannot find symbol
+[ERROR]   symbol:   method getRankingName()
+[ERROR]   location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[57,21] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[59,43] cannot find symbol
+[ERROR]   symbol:   method getRankingValue()
+[ERROR]   location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[59,74] cannot find symbol
+[ERROR]   symbol:   method getRankingValue()
+[ERROR]   location: variable r of type com.rophim.legacy.models.Ranking
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[84,17] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[99,21] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AIService.java:[107,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AIService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[32,46] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[35,13] cannot find symbol
+[ERROR]   symbol:   method setUserId(java.lang.String)
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[36,53] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[37,13] cannot find symbol
+[ERROR]   symbol:   method setCreatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[38,13] cannot find symbol
+[ERROR]   symbol:   method setUpdatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[43,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[46,21] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[50,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[51,21] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[51,62] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[53,52] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[54,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[59,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[60,25] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[60,43] cannot find symbol
+[ERROR]   symbol:   method getFirstName()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[60,64] cannot find symbol
+[ERROR]   symbol:   method getLastName()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[60,84] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[64,37] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[65,42] cannot find symbol
+[ERROR]   symbol:   method getFirstName()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[66,41] cannot find symbol
+[ERROR]   symbol:   method getLastName()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[67,35] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[68,41] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[70,60] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[71,68] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[73,17] cannot find symbol
+[ERROR]   symbol:   method setToken(java.lang.String)
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[74,17] cannot find symbol
+[ERROR]   symbol:   method setRefreshToken(java.lang.String)
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[77,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[81,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[96,33] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[97,38] cannot find symbol
+[ERROR]   symbol:   method getFirstName()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[98,37] cannot find symbol
+[ERROR]   symbol:   method getLastName()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[99,31] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[100,37] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[102,59] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[103,67] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[105,13] cannot find symbol
+[ERROR]   symbol:   method setToken(java.lang.String)
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[106,13] cannot find symbol
+[ERROR]   symbol:   method setRefreshToken(java.lang.String)
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/AuthService.java:[112,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.AuthService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/exception/GlobalExceptionHandler.java:[19,85] cannot find symbol
+[ERROR]   symbol:   method getMessage()
+[ERROR]   location: variable e of type com.rophim.legacy.exception.AuthException
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[28,49] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.rophim.legacy.dtos.UserResponse
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[29,39] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[30,42] cannot find symbol
+[ERROR]   symbol:   method getFirstName()
+[ERROR]   location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[31,41] cannot find symbol
+[ERROR]   symbol:   method getLastName()
+[ERROR]   location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[32,38] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[33,37] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[34,48] cannot find symbol
+[ERROR]   symbol:   method getFavouriteGenres()
+[ERROR]   location: variable registeredUser of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[43,51] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type @jakarta.validation.Valid com.rophim.legacy.dtos.UserLogin
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[43,76] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable loginRequest of type @jakarta.validation.Valid com.rophim.legacy.dtos.UserLogin
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[47,49] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.rophim.legacy.dtos.UserResponse
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[48,29] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[49,32] cannot find symbol
+[ERROR]   symbol:   method getFirstName()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[50,31] cannot find symbol
+[ERROR]   symbol:   method getLastName()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[51,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[52,27] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[53,28] cannot find symbol
+[ERROR]   symbol:   method getToken()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[54,35] cannot find symbol
+[ERROR]   symbol:   method getRefreshToken()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[55,38] cannot find symbol
+[ERROR]   symbol:   method getFavouriteGenres()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[75,37] cannot find symbol
+[ERROR]   symbol:   method getToken()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/AuthController.java:[76,44] cannot find symbol
+[ERROR]   symbol:   method getRefreshToken()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/MovieController.java:[63,45] cannot find symbol
+[ERROR]   symbol:   method getRanking()
+[ERROR]   location: variable updatedMovie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/controller/MovieController.java:[64,45] cannot find symbol
+[ERROR]   symbol:   method getAdminReview()
+[ERROR]   location: variable updatedMovie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[36,18] cannot find symbol
+[ERROR]   symbol:   method getAdminReview()
+[ERROR]   location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[36,53] cannot find symbol
+[ERROR]   symbol:   method getAdminReview()
+[ERROR]   location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[37,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.MovieService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[40,64] cannot find symbol
+[ERROR]   symbol:   method getAdminReview()
+[ERROR]   location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[43,26] cannot find symbol
+[ERROR]   symbol:   method setRanking(com.rophim.legacy.models.Ranking)
+[ERROR]   location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[46,17] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.MovieService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[57,34] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable admin of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[58,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.MovieService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[63,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.MovieService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[63,80] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[68,22] cannot find symbol
+[ERROR]   symbol:   method setRanking(com.rophim.legacy.models.Ranking)
+[ERROR]   location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[71,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.rophim.legacy.service.MovieService
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[74,14] cannot find symbol
+[ERROR]   symbol:   method setAdminReview(java.lang.String)
+[ERROR]   location: variable movie of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[82,17] cannot find symbol
+[ERROR]   symbol:   method getFavouriteGenres()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[82,54] cannot find symbol
+[ERROR]   symbol:   method getFavouriteGenres()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[86,39] cannot find symbol
+[ERROR]   symbol:   method getFavouriteGenres()
+[ERROR]   location: variable user of type com.rophim.legacy.models.User
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[94,33] cannot find symbol
+[ERROR]   symbol:   method getRanking()
+[ERROR]   location: variable m1 of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[94,60] cannot find symbol
+[ERROR]   symbol:   method getRanking()
+[ERROR]   location: variable m1 of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[95,33] cannot find symbol
+[ERROR]   symbol:   method getRanking()
+[ERROR]   location: variable m1 of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[97,33] cannot find symbol
+[ERROR]   symbol:   method getRanking()
+[ERROR]   location: variable m2 of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[97,60] cannot find symbol
+[ERROR]   symbol:   method getRanking()
+[ERROR]   location: variable m2 of type com.rophim.legacy.models.Movie
+[ERROR] /E:/Hoc/PTIT/Ky4+5/CongNghePhanMem/Final_Project/RoPhimLegacyJava/Server/RoPhimLegacyJavaBackend/src/main/java/com/rophim/legacy/service/MovieService.java:[98,33] cannot find symbol
+[ERROR]   symbol:   method getRanking()
+[ERROR]   location: variable m2 of type com.rophim.legacy.models.Movie
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
