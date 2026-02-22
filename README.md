@@ -41,6 +41,11 @@
    - `SECRET_KEY` (Cho JWT)
 3. **Chạy Backend**:
    ```bash
-   cd Server/MagicStreamMoviesJavaBackend
+   cd ./Server/RoPhimLegacyServer
    mvn spring-boot:run
+   ```
+4. **Chạy Frontend**:
+   ```bash
+   cd ./Client/ro-phim-legacy-client
+   npm run dev
    ```
